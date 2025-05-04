@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -19,12 +23,21 @@ ul {
 }
 
 a {
-  color: currentColor;
+  display: block;
+  color: inherit;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
+  cursor: pointer;
 }
 
 button {
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input,
+textarea {
+  font-family: 'Montserrat', sans-serif;
 }
 
 img {
